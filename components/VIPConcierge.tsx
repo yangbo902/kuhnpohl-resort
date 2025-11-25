@@ -13,7 +13,7 @@ const VIPConcierge: React.FC = () => {
               <img 
                 src="https://i.ibb.co/1tWJCB77/unnamed-3.jpg" 
                 alt="VIP Butler Service" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 ease-out"
+                className="w-full h-full object-cover transition-all duration-1000 ease-out"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
               
