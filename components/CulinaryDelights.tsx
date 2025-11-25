@@ -31,7 +31,7 @@ const CulinaryDelights: React.FC = () => {
               {/* Image */}
               <div className="absolute inset-0">
                  <img 
-                   src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1974&auto=format&fit=crop" 
+                   src="https://i.ibb.co/v6DdzJg6/Generated-Image-October-08-2025-5-07-PM.png" 
                    alt="Fine Dining" 
                    className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110"
                  />
@@ -78,7 +78,7 @@ const CulinaryDelights: React.FC = () => {
               {/* Image */}
               <div className="absolute inset-0">
                  <img 
-                   src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2070&auto=format&fit=crop" 
+                   src="https://i.ibb.co/hF3bKPsc/cc34bbec5a11a352a95ac2f8d006c1f1.png" 
                    alt="Luxury Buffet" 
                    className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110"
                  />
