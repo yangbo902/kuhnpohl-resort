@@ -130,9 +130,9 @@ function App() {
               <div>
                  <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Contact</h4>
                  <ul className="space-y-4 text-slate-500 text-sm">
-                    <li className="hover:text-brand-gold cursor-pointer transition-colors">Global: +1 (888) 555-0123</li>
-                    <li className="hover:text-brand-gold cursor-pointer transition-colors">China: +86 21 5555 0199</li>
-                    <li className="hover:text-brand-gold cursor-pointer transition-colors">concierge@kuhnpohl.com</li>
+                    <li className="hover:text-brand-gold cursor-pointer transition-colors">Global: +49 (341 ) 2489-6272</li>
+                    <li className="hover:text-brand-gold cursor-pointer transition-colors">China: +86 21 6095 3662</li>
+                    <li className="hover:text-brand-gold cursor-pointer transition-colors">info@kuhnpohl-china.com</li>
                  </ul>
               </div>
               <div>
