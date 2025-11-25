@@ -10,9 +10,9 @@ interface BookingModalProps {
 }
 
 const LUXURY_ADDONS: BookingAddon[] = [
-  { id: 'heli', name: 'Private Heli-Transfer (直升机接送)', price: 2500, description: 'Direct flight from nearest hub.', selected: false },
-  { id: 'chef', name: 'Michelin In-Suite Dining (套房餐饮)', price: 1200, description: '7-course Omakase by Chef Vance.', selected: false },
-  { id: 'butler', name: 'Royal Butler (皇家管家)', price: 800, description: '24/7 Personal Concierge.', selected: false },
+  { id: 'heli', name: 'Private Heli-Transfer (直升机接送)', price: 25000, description: 'Direct flight from nearest hub.', selected: false },
+  { id: 'chef', name: 'Michelin In-Suite Dining (套房餐饮)', price: 4200, description: '7-course Omakase by Chef Vance.', selected: false },
+  { id: 'butler', name: 'Royal Butler (皇家管家)', price: 3800, description: '24/7 Personal Concierge.', selected: false },
   { id: 'photo', name: 'Cinematic Follow-Cam (跟拍)', price: 1500, description: 'Personal drone photography team.', selected: false },
 ];
 
@@ -65,7 +65,7 @@ const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose, preSelecte
   };
 
   const calculateTotal = () => {
-    const basePrice = 4500; // Base luxury rate
+    const basePrice = 2500; // Base luxury rate
     const addonTotal = addons.filter(a => a.selected).reduce((sum, a) => sum + a.price, 0);
     return basePrice + addonTotal;
   };
