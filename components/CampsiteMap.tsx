@@ -337,7 +337,7 @@ const CampsiteMap: React.FC<CampsiteMapProps> = ({ onBook }) => {
 
       {/* 3D Viewport Container */}
       <div 
-        className="relative w-full h-[600px] overflow-hidden rounded-3xl border border-white/10 bg-[#020408] shadow-2xl cursor-move touch-none"
+        className="relative w-full h-[600px] overflow-hidden rounded-3xl border border-white/10 shadow-2xl cursor-move touch-none"
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
@@ -347,6 +347,18 @@ const CampsiteMap: React.FC<CampsiteMapProps> = ({ onBook }) => {
         ref={containerRef}
         style={{ perspective: '1200px' }}
       >
+        {/* Background Image Layer */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/kuhnpohl-background.jpeg')`,
+            filter: 'brightness(0.4) contrast(1.2) saturate(0.9)',
+          }}
+        >
+          {/* Overlay gradients for better contrast */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/60"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.4)_70%)]"></div>
+        </div>
         {/* Info Panel Overlay */}
         {selectedUnit && (
           <div className="absolute top-4 right-4 md:top-8 md:right-8 w-80 bg-[#0B0F19]/95 border border-white/10 backdrop-blur-xl rounded-2xl shadow-[0_0_50px_rgba(0,0,0,0.8)] overflow-hidden z-50 animate-in fade-in slide-in-from-right duration-300 cursor-default" onMouseDown={(e) => e.stopPropagation()}>
@@ -431,8 +443,9 @@ const CampsiteMap: React.FC<CampsiteMapProps> = ({ onBook }) => {
           </div>
         )}
 
-        {/* Grid Background (Static) */}
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.05)_0%,transparent_70%)]"></div>
+        {/* Grid Background Enhancement (Static) */}
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.08)_0%,transparent_70%)]"></div>
+        <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(255,255,255,0.01)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.01)_1px,transparent_1px)] bg-[size:40px_40px]"></div>
 
         {/* The 3D World */}
         <div 
