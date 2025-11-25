@@ -52,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ onBook }) => {
         >
           {/* Image with Subtle Hover Zoom Effect */}
           <img 
-            src="https://picsum.photos/seed/wondercamp_hero_ultra/1920/1080" 
+            src="https://i.ibb.co/MxsMr7M1/4.jpg" 
             alt="Magical Campsite Background" 
             className={`w-full h-full object-cover opacity-50 transition-transform duration-[8000ms] ease-out ${isHovered ? 'scale-110' : 'scale-105'}`}
             loading="eager"
