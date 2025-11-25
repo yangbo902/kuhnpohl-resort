@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Hero from './components/Hero';
 import CampsiteMap from './components/CampsiteMap';
+import MasterplanShowcase from './components/MasterplanShowcase';
 import VideoGenerator from './components/VideoGenerator';
 import LuxuryGallery from './components/LuxuryGallery';
 import InvestorPitch from './components/InvestorPitch';
@@ -97,6 +98,7 @@ function App() {
              {/* Background Elements */}
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-900/10 blur-[120px] rounded-full pointer-events-none"></div>
              
+             <MasterplanShowcase />
              <CampsiteMap onBook={(unitId) => openBooking(unitId)} />
            </section>
 
