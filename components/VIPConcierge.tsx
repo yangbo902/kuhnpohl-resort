@@ -11,7 +11,7 @@ const VIPConcierge: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-[2rem] overflow-hidden aspect-[3/4] group">
               <img 
-                src="https://i.ibb.co/1tWJCB77/unnamed-3.jpg" 
+                src="https://kxzimg.pages.dev/v2/CQnJT67.jpeg" 
                 alt="VIP Butler Service" 
                 className="w-full h-full object-cover transition-all duration-1000 ease-out"
               />
