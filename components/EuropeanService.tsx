@@ -8,7 +8,7 @@ const INITIAL_STAFF_PROFILES = [
     role: "Chief Sommelier (首席侍酒师)",
     name: "Alessandro Moretti",
     origin: "Tuscany, Italy",
-    image: "https://i.ibb.co/FbbMWKP3/David-Kululies.jpg",
+    image: "https://kxzimg.pages.dev/v2/OayZHON.jpeg",
     description: "Master of vintage pairings with 15 years experience in Michelin-starred establishments. (年份酒搭配大师)",
     prompt: "Portrait of a distinguished Italian sommelier in a luxury wine cellar, holding a glass of red wine, wearing a tailored suit, warm professional smile, photorealistic, 8k, soft cinematic lighting."
   },
@@ -17,7 +17,7 @@ const INITIAL_STAFF_PROFILES = [
     role: "Executive Butler (行政管家)",
     name: "Isabelle Dubois",
     origin: "Lausanne, Switzerland",
-    image: "https://i.ibb.co/WvCXxnn1/Untitled-4.jpg",
+    image: "https://kxzimg.pages.dev/v2/m39cUoN.jpeg",
     description: "Graduate of EHL. Specializing in hyper-personalized care and anticipation of needs. (EHL 酒店管理学院毕业生)",
     prompt: "Portrait of a prestigious Swiss executive butler, female, standing in an ultra-luxury hotel lobby in Lausanne, wearing a high-end tailored navy suit, impeccable grooming, warm and attentive smile, soft golden hour lighting, depth of field, photorealistic, 8k."
   },
@@ -26,7 +26,7 @@ const INITIAL_STAFF_PROFILES = [
     role: "Director of Banquets (宴会总监)",
     name: "Hans Weber",
     origin: "Vienna, Austria",
-    image: "https://i.ibb.co/Jw66NtHC/Ingo-Hoffmann.jpg",
+    image: "https://kxzimg.pages.dev/v2/WtFcomA.jpeg",
     description: "Curating royal-standard events and grand celebrations with precision. (策划皇家标准的活动)",
     prompt: "Portrait of a dignified Austrian banquet director, male, silver hair, wearing a formal tuxedo with a bowtie, standing in a grand Viennese ballroom with crystal chandeliers, professional and commanding presence, elegant atmosphere, sharp focus, photorealistic, 8k."
   }
