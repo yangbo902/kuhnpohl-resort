@@ -18,7 +18,7 @@ const SHOWS = [
     subtitle: "月光传奇",
     category: "Avant-Garde Acrobatics (嘉年华)",
     description: "Defy gravity in our forest big top. World champion acrobats perform zero-G simulations and aquatic ballet.",
-    image: "https://images.unsplash.com/photo-1533174072545-e8d4aa97edf9?q=80&w=1974&auto=format&fit=crop",
+    image: "https://kxzimg.pages.dev/v2/OIOx6dz.jpeg",
     icon: Users,
     color: "from-cyan-500 to-blue-600"
   },
@@ -28,7 +28,7 @@ const SHOWS = [
     subtitle: "午夜爵士",
     category: "Immersive Theatre (沉浸式演艺)",
     description: "Step into a reimagined roaring 20s. An interactive dinner show featuring jazz legends, burlesque, and mystery.",
-    image: "https://images.unsplash.com/photo-1514525253440-b393452e8d26?q=80&w=1000&auto=format&fit=crop",
+    image: "https://kxzimg.pages.dev/v2/tKuRTw5.jpeg",
     icon: Mic2,
     color: "from-rose-500 to-red-600"
   },
