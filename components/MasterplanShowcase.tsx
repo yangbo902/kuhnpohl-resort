@@ -30,7 +30,7 @@ const MasterplanShowcase: React.FC = () => {
         {/* 主图片容器 */}
         <div className="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
           <img 
-            src="https://i.ibb.co/MxsMr7M1/4.jpg"
+            src="https://kxzimg.pages.dev/v2/lSCNdEV.jpeg"
             alt="Kuhnpohl Resort Masterplan - Aerial View"
             className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
           />
